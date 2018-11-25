@@ -6,9 +6,9 @@ JS functionality to toggle password visbility/icon.
 ## View
 https://hellodiara.github.io/Sheridan-landing-page/
 
-### Screenshot
+### Screenshots
 ![Desktop](https://github.com/hellodiara/Sheridan-landing-page/blob/master/img/sheridan-desktop.png)
-![Desktop](https://github.com/hellodiara/Sheridan-landing-page/blob/master/img/sheridan-medium.png)
+![Medium](https://github.com/hellodiara/Sheridan-landing-page/blob/master/img/sheridan-medium.png)
 
 
 ### Credits:
