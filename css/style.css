@@ -1,0 +1,179 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.btn-primary {
+  background-color: #2C99ED;
+  border-radius: 0px;
+}
+
+/*
+ * Basic
+ */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff!important;
+  /*Full page image cover*/
+  background: url("../img/sheridan.jpg") no-repeat center center fixed;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*
+ * Header
+ */
+.header {
+  margin-bottom: 2rem;
+}
+
+.fas {
+  color: white!important;
+}
+.navbar-brand {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.nav-item .nav-link {
+  padding: .25rem 0;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-item.nav-link:hover,
+.nav-item .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-item .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-item .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*
+ * Page
+ */
+ @media (max-width: 980px) {
+    .container-fluid {
+      padding-top: 40px;
+    }
+  }
+
+/*
+ * Form
+ */
+.card {
+  background-color:rgba(192,192,192,0.2) !important;
+  border-color: (255, 255, 255, .5);
+}
+
+.list-group-item {
+  background-color:transparent!important;
+  border-color: rgba(179, 179, 179, 0.2);
+}
+
+.form-signin-heading {
+  font-size: 14px;
+}
+
+.form-control {
+  background-color:transparent!important;
+  color:#fff;
+  border:none !important;
+  padding: .70rem;
+}
+.form-control:focus {
+  color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: lighter;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+ #eye-icon {
+   cursor: pointer;
+   pointer-events: all;
+ }
+
+.disclaimer {
+  font-size: 10px;
+}
+
+.muted {
+  padding-top: 1rem;
+  color: #bdbdbd!important;
+}
+/*
+ * Footer
+ */
+
+.footer{
+  font-size: 11px;
+}
+.footer-nav ul li{
+ list-style-type: none;
+}
+
+/*
+ * Media queries
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+  .footer-nav ul li {
+    display: inline-block;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  .navbar li {
+    margin-left : 1em;
+    margin-right : 1em;
+  }
+
+  form {
+    max-width: 22rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) { 
+  .page-heading {
+  font-size: 50px;
+  } 
+}
+
